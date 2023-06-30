@@ -2,7 +2,7 @@ using JworkzNeosMod.Patches;
 using FrooxEngine;
 using CloudX.Shared;
 
-namespace JworkzNeosReturnOfReceivedContactRequestNotifcation.Test;
+namespace JworkzNeosReturnOfReceivedContactRequestNotification.Test;
 
 public class FriendsFriendAddedPatch_FriendsFriendAddedPrefix
 {

@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JworkzNeosMod</RootNamespace>
-    <AssemblyTitle>JworkzNeosReturnOfReceivedContactRequestNotifcation</AssemblyTitle>
+    <AssemblyTitle>JworkzNeosReturnOfReceivedContactRequestNotification</AssemblyTitle>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <TargetFramework>net462</TargetFramework>
     <FileAlignment>512</FileAlignment>
@@ -17,7 +17,7 @@
     <CopyToMods Condition="'$(CopyToMods)'==''">true</CopyToMods>
     <DebugSymbols Condition="'$(Configuration)'=='Release'">false</DebugSymbols>
     <DebugType Condition="'$(Configuration)'=='Release'">None</DebugType>
-    <AssemblyName>JworkzNeosReturnOfReceivedContactRequestNotifcation</AssemblyName>
+    <AssemblyName>JworkzNeosReturnOfReceivedContactRequestNotification</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

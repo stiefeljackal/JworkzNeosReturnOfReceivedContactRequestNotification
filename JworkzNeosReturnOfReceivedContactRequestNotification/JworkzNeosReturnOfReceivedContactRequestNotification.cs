@@ -6,16 +6,16 @@ using JworkzNeosMod.Patches;
 
 namespace JworkzNeosMod
 {
-    public class JworkzNeosReturnOfReceivedContactRequestNotifcation : NeosMod
+    public class JworkzNeosReturnOfReceivedContactRequestNotification : NeosMod
     {
-        public override string Name => nameof(JworkzNeosReturnOfReceivedContactRequestNotifcation);
+        public override string Name => nameof(JworkzNeosReturnOfReceivedContactRequestNotification);
         public override string Author => "Stiefel Jackal";
         public override string Version => "1.0.0";
-        public override string Link => "https://github.com/stiefeljackal/JworkzNeosReturnOfReceivedContactRequestNotifcation";
+        public override string Link => "https://github.com/stiefeljackal/JworkzNeosReturnOfReceivedContactRequestNotification";
 
         [AutoRegisterConfigKey]
         private static readonly ModConfigurationKey<bool> KEY_ENABLE =
-            new ModConfigurationKey<bool>("enabled", $"Enables the {nameof(JworkzNeosReturnOfReceivedContactRequestNotifcation)} mod.", () => true);
+            new ModConfigurationKey<bool>("enabled", $"Enables the {nameof(JworkzNeosReturnOfReceivedContactRequestNotification)} mod.", () => true);
 
         private static ModConfiguration Config;
 

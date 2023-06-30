@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JworkzNeosReturnOfReceivedContactRequestNotifcation\JworkzNeosReturnOfReceivedContactRequestNotifcation.csproj" />
+    <ProjectReference Include="..\JworkzNeosReturnOfReceivedContactRequestNotification\JworkzNeosReturnOfReceivedContactRequestNotification.csproj" />
   </ItemGroup>
 
 	<ItemGroup>
