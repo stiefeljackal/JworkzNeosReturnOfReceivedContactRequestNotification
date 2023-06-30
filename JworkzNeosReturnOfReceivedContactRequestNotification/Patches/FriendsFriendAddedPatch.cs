@@ -16,7 +16,7 @@ namespace JworkzNeosMod.Patches
     {
         [HarmonyPrefix]
         [HarmonyPatch("Friends_FriendAdded")]
-        internal static void FriendsFriendAddedPrefix(ref Friend friend)
+        internal static void FriendsFriendAddedPrefix(Friend friend)
         {
             if (friend.FriendStatus == FriendStatus.Requested)
             {

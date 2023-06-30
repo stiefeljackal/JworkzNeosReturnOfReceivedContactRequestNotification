@@ -15,7 +15,7 @@ public class FriendsFriendAddedPatch_FriendsFriendAddedPrefix
             IsAccepted = true
         };
 
-        FriendsFriendAddedPatch.FriendsFriendAddedPrefix(ref friend);
+        FriendsFriendAddedPatch.FriendsFriendAddedPrefix(friend);
 
         Assert.False(friend.IsAccepted);
     }
@@ -39,7 +39,7 @@ public class FriendsFriendAddedPatch_FriendsFriendAddedPrefix
             IsAccepted = isAccpetedExpected
         };
 
-        FriendsFriendAddedPatch.FriendsFriendAddedPrefix(ref friend);
+        FriendsFriendAddedPatch.FriendsFriendAddedPrefix(friend);
 
         Assert.Equal(friend.IsAccepted, isAccpetedExpected);
     }
