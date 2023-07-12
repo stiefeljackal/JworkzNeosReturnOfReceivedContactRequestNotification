@@ -8,11 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17D999B9-BA62-4B6B-BAF2-3D6DB0FC81C0}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		LICENSE.txt = LICENSE.txt
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JworkzNeosReturnOfReceivedContactRequestNotification.Test", "JworkzNeosReturnOfReceivedContactRequestNotification.Test\JworkzNeosReturnOfReceivedContactRequestNotification.Test.csproj", "{2A9D29E7-1463-4213-B88A-5BD1880BFB90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JworkzNeosReturnOfReceivedContactRequestNotification.Test", "JworkzNeosReturnOfReceivedContactRequestNotification.Test\JworkzNeosReturnOfReceivedContactRequestNotification.Test.csproj", "{2A9D29E7-1463-4213-B88A-5BD1880BFB90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
